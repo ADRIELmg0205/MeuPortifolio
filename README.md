@@ -135,16 +135,6 @@ Informações de contato e links para redes sociais
 ### 7. **Footer** - Rodapé
 Links adicionais e copyright
 
-## ✏️ Personalização
-
-Para personalizar o portfólio com suas informações, consulte o arquivo **[CUSTOMIZATION.md](./CUSTOMIZATION.md)** que contém instruções detalhadas sobre como:
-
-- Adicionar seu email e redes sociais
-- Atualizar informações profissionais
-- Adicionar/modificar projetos
-- Personalizar habilidades
-- E muito mais!
-
 ## 🌐 Deploy
 
 ### Opção 1: Vercel (Recomendado)
