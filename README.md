@@ -1,36 +1,181 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio de Adriel Matheus Graupp
 
-## Getting Started
+Bem-vindo ao portfólio profissional de **Adriel Matheus Graupp**, desenvolvedor Full Stack especializado em sistemas de gestão, ERP e soluções web modernas.
 
-First, run the development server:
+## 🚀 Sobre Este Projeto
+
+Este é um portfólio moderno e responsivo desenvolvido com:
+
+- **Next.js 16** - Framework React para produção
+- **TypeScript** - Type-safe development
+- **Tailwind CSS 4** - Estilos utilitários
+- **React 19** - Biblioteca de componentes
+
+### ✨ Características
+
+- 📱 **Totalmente Responsivo** - Funciona perfeitamente em desktop, tablet e mobile
+- 🌓 **Tema Claro/Escuro** - Suporta automático e escolha manual
+- ⚡ **Alta Performance** - Otimizado para velocidade
+- 🎨 **Design Moderno** - Interface limpa e profissional
+- 🔍 **SEO Otimizado** - Meta tags e estrutura semântica
+
+## 🛠️ Tecnologias
+
+### Frontend
+- React 19
+- Next.js 16
+- TypeScript
+- Tailwind CSS 4
+
+### Backend (Opcional)
+- Node.js
+- Express
+- PostgreSQL
+
+### Experiência Profissional
+- Delphi (ERP e Sistemas de Gestão)
+- SQL (PostgreSQL, MySQL)
+- APIs REST
+- Integrações em Nuvem
+- Autenticação e Segurança
+
+## 📦 Como Começar
+
+### Pré-requisitos
+
+- Node.js 18+ 
+- npm, yarn ou pnpm
+
+### Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone o repositório
+git clone seu-repositorio
+
+# Acesse o diretório
+cd portifolio-adriel
+
+# Instale as dependências
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Desenvolvimento
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Execute o servidor de desenvolvimento
+npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Abra seu navegador em:
+# http://localhost:3000
+```
 
-## Learn More
+### Build para Produção
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Crie a versão otimizada para produção
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Execute a versão de produção
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Lint
 
-## Deploy on Vercel
+```bash
+# Verifique a qualidade do código
+npm run lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Estrutura do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+portifolio-adriel/
+├── src/
+│   └── app/
+│       ├── components/
+│       │   ├── Header.tsx          # Navegação superior
+│       │   ├── Hero.tsx            # Seção inicial (apresentação)
+│       │   ├── About.tsx           # Sobre mim e experiência
+│       │   ├── Projects.tsx        # Projetos em destaque
+│       │   ├── Skills.tsx          # Habilidades técnicas
+│       │   ├── Contact.tsx         # Seção de contato
+│       │   └── Footer.tsx          # Rodapé
+│       ├── globals.css             # Estilos globais
+│       ├── layout.tsx              # Layout raiz
+│       └── page.tsx                # Página principal
+├── public/                         # Arquivos estáticos
+├── package.json                    # Dependências do projeto
+├── tsconfig.json                   # Configuração TypeScript
+├── next.config.ts                  # Configuração Next.js
+├── tailwind.config.ts              # Configuração Tailwind
+├── postcss.config.mjs              # Configuração PostCSS
+└── eslint.config.mjs               # Configuração ESLint
+```
+
+## 🎯 Seções do Portfólio
+
+### 1. **Header** - Navegação
+Menu fixo no topo com links para navegação rápida
+
+### 2. **Hero** - Apresentação
+Seção inicial com apresentação profissional e calls-to-action
+
+### 3. **About** - Sobre
+Descrição profissional e experiência de trabalho
+
+### 4. **Projects** - Projetos
+Showcase dos principais projetos com tecnologias utilizadas
+
+### 5. **Skills** - Habilidades
+Categorias de competências técnicas
+
+### 6. **Contact** - Contato
+Informações de contato e links para redes sociais
+
+### 7. **Footer** - Rodapé
+Links adicionais e copyright
+
+## ✏️ Personalização
+
+Para personalizar o portfólio com suas informações, consulte o arquivo **[CUSTOMIZATION.md](./CUSTOMIZATION.md)** que contém instruções detalhadas sobre como:
+
+- Adicionar seu email e redes sociais
+- Atualizar informações profissionais
+- Adicionar/modificar projetos
+- Personalizar habilidades
+- E muito mais!
+
+## 🌐 Deploy
+
+### Opção 1: Vercel (Recomendado)
+
+```bash
+# Instale a CLI do Vercel
+npm install -g vercel
+
+# Deploy
+vercel
+```
+
+### Opção 2: GitHub Pages, Netlify, AWS, etc.
+
+O projeto pode ser deployado em qualquer plataforma que suporte Node.js/Next.js.
+
+## 📧 Contato
+
+Para dúvidas ou propostas, entre em contato através do formulário no portfólio ou pelos links de redes sociais.
+
+## 📄 Licença
+
+Este projeto está disponível sob a licença MIT.
+
+## 🙏 Agradecimentos
+
+- [Next.js](https://nextjs.org) - Framework incrível
+- [Tailwind CSS](https://tailwindcss.com) - Estilos utilitários
+- [React](https://react.dev) - Biblioteca de componentes
+- [TypeScript](https://www.typescriptlang.org) - Type safety
+
+---
+
+**Desenvolvido com ❤️ por Adriel Matheus Graupp**
